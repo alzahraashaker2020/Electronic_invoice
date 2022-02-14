@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~@ng-select/ng-select/themes/default.theme.css";
+@font-face {
+  font-family: amiri;
+  src: local("amiri"),url(assets/fonts/amiri-v17-latin_arabic-700.ttf) format("truetype");
+}
+
+* {
+  font-family: amiri,Arial
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #e01a76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/*////////////// DropDown Ngselect Change style Validation//////////////////*/
+/*****NOValidStyle*/
+.ng-select.ng-invalid.ng-touched .ng-select-container {
+  border-color: red;
+}
+/* Arrow Color */
+.ng-select.ng-invalid.ng-touched .ng-arrow-wrapper .ng-arrow {
+  border-color: red transparent transparent
+}
+/* Placeholder Color */
+.ng-select.ng-invalid.ng-touched .ng-select-container .ng-placeholder {
+  color: red;
+}
+
+
+/***********ValidStyle******************/
+
+
+.ng-select.ng-valid.ng-touched .ng-select-container {
+  border-color: #28a745;
+}
+/* Arrow Color */
+.ng-select.ng-valid.ng-touched .ng-arrow-wrapper .ng-arrow {
+  border-color: #28a745 transparent transparent
+}
+
+
+
+/*////////////// End DropDown Ngselect Change style Validation//////////////////*/

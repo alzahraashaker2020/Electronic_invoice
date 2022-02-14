@@ -1,0 +1,93 @@
+#registerPage {
+  display: grid;
+  place-items: center;
+  grid-gap: 1rem;
+}
+
+
+#formImg {
+  display: grid;
+  place-items: center;
+}
+
+#image {
+  width: 400px;
+  height: 300px;
+}
+
+h2 {
+  font-size: xx-large;
+  font-weight: 500;
+}
+
+form {
+  inline-size: 400px;
+}
+
+input {
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 10px;
+  inline-size: 400px;
+}
+
+#btnDiv {
+  display: flex;
+  margin-top: 20px;
+}
+
+small {
+  font-size: revert;
+}
+
+
+@media (min-width: 992px) {
+  #registerPage {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 500px;
+  }
+
+  #formImg {
+    grid-template-columns: repeat(2, 500px);
+  }
+}
+
+@media (max-width:1024px) {
+
+  form {
+    inline-size: 350px;
+  }
+
+  button {
+    inline-size: 350px;
+  }
+}
+
+@media (max-width:992px) {
+  #registerPage {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 500px;
+  }
+
+  #formImg {
+    grid-template-columns: auto;
+  }
+
+  form {
+    inline-size: 300px;
+  }
+
+  button {
+    inline-size: 300px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,12 @@
+D:\Alzahraa\invoice\Electronic_Invoice\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+D:\Alzahraa\invoice\Electronic_Invoice\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+D:\Alzahraa\invoice\Electronic_Invoice\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\Alzahraa\invoice\Electronic_Invoice\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\Alzahraa\invoice\Electronic_Invoice\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\Alzahraa\invoice\Electronic_Invoice\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+D:\Alzahraa\invoice\Electronic_Invoice\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+D:\Alzahraa\invoice\Electronic_Invoice\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+D:\Alzahraa\invoice\Electronic_Invoice\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+D:\Alzahraa\invoice\Electronic_Invoice\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+D:\Alzahraa\invoice\Electronic_Invoice\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+D:\Alzahraa\invoice\Electronic_Invoice\BLL\obj\Debug\netcoreapp3.1\BLL.pdb

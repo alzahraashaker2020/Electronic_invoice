@@ -1,0 +1,12 @@
+D:\Alzahraa\invoice\Electronic_Invoice\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\Alzahraa\invoice\Electronic_Invoice\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+D:\Alzahraa\invoice\Electronic_Invoice\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+D:\Alzahraa\invoice\Electronic_Invoice\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\Alzahraa\invoice\Electronic_Invoice\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\Alzahraa\invoice\Electronic_Invoice\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\Alzahraa\invoice\Electronic_Invoice\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\Alzahraa\invoice\Electronic_Invoice\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\Alzahraa\invoice\Electronic_Invoice\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\Alzahraa\invoice\Electronic_Invoice\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+D:\Alzahraa\invoice\Electronic_Invoice\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
+D:\Alzahraa\invoice\Electronic_Invoice\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
