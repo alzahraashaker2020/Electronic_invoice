@@ -14,8 +14,8 @@ namespace DAL.Models
 
         public int Id { get; set; }
         public string Code { get; set; }
-        public string Ename { get; set; }
-        public string Aname { get; set; }
+        public string Desc_en { get; set; }
+        public string Desc_ar { get; set; }
 
         public virtual ICollection<InvoiceLine> InvoiceLines { get; set; }
     }

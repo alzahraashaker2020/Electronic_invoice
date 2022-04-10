@@ -28,20 +28,20 @@ namespace DAL.Migrations
                         .HasColumnName("id")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Adescription")
-                        .HasMaxLength(1000)
-                        .HasColumnType("nvarchar(1000)")
-                        .HasColumnName("ADescription");
-
                     b.Property<string>("Code")
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)")
                         .HasColumnName("code");
 
-                    b.Property<string>("Edescription")
+                    b.Property<string>("Desc_ar")
                         .HasMaxLength(1000)
                         .HasColumnType("nvarchar(1000)")
-                        .HasColumnName("EDescription");
+                        .HasColumnName("Desc_ar");
+
+                    b.Property<string>("Desc_en")
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)")
+                        .HasColumnName("Desc_en");
 
                     b.HasKey("Id");
 
@@ -761,20 +761,20 @@ namespace DAL.Migrations
                         .HasColumnName("id")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Aname")
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)")
-                        .HasColumnName("AName");
-
                     b.Property<string>("Code")
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)")
                         .HasColumnName("code");
 
-                    b.Property<string>("Ename")
+                    b.Property<string>("Desc_ar")
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)")
-                        .HasColumnName("EName");
+                        .HasColumnName("Desc_ar");
+
+                    b.Property<string>("Desc_en")
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)")
+                        .HasColumnName("Desc_en");
 
                     b.HasKey("Id");
 

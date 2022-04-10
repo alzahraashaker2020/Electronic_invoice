@@ -48,7 +48,7 @@ namespace Invoice_Api.Controllers
 
          try
          {
-          var List_of_AvtivityType= _warpper._ActivityType.GetByCondition(t => t.Adescription.Contains(DESC) || t.Edescription.Contains(DESC)).Result;
+          var List_of_AvtivityType= _warpper._ActivityType.GetByCondition(t => t.Desc_ar.Contains(DESC) || t.Desc_en.Contains(DESC)).Result;
                 if (List_of_AvtivityType.Count != 0)
                     return StatusCode(1, List_of_AvtivityType);
 

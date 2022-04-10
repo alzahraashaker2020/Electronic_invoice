@@ -32,7 +32,7 @@ namespace Invoice_Api.Controllers.BasicDataController
         {
             RegisteredDate_VM registeredDate_VM = new RegisteredDate_VM();
             Response_VM response_VM = new Response_VM();
-            var ActivityType = repo._ActivityType.GetAll().Result.Select(s=>new ActivityTypes_VM{Id= s.Id, Adescription=s.Adescription,Code=s.Code}).ToList();
+            var ActivityType = repo._ActivityType.GetAll().Result.Select(s=>new ActivityTypes_VM{Id= s.Id, Adescription=s.Desc_ar,Code=s.Code}).ToList();
             var countries = repo._Country.GetAll().Result.Select(s => new Countries_VM { Id = s.Id, Code = s.Code, Adescription = s.Desc_ar }).ToList();
 
 

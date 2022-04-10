@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DAL.Migrations
 {
-    public partial class testing2020 : Migration
+    public partial class FinaleMig : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,8 +14,8 @@ namespace DAL.Migrations
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     code = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
-                    EDescription = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
-                    ADescription = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true)
+                    Desc_en = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
+                    Desc_ar = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -43,8 +43,8 @@ namespace DAL.Migrations
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     code = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: true),
-                    EDescription = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
-                    ADescription = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true)
+                    Desc_en = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
+                    Desc_ar = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -165,8 +165,8 @@ namespace DAL.Migrations
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     code = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
-                    EName = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
-                    AName = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true)
+                    Desc_en = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true),
+                    Desc_ar = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: true)
                 },
                 constraints: table =>
                 {
