@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Alzahraa\\invoice\\Electronic_Invoice\\Invoice_Api\\Invoice_Api.csproj": {}
+    "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\Invoice_Api\\Invoice_Api.csproj": {}
   },
   "projects": {
-    "D:\\Alzahraa\\invoice\\Electronic_Invoice\\BLL\\BLL.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alzahraa\\invoice\\Electronic_Invoice\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\Alzahraa\\invoice\\Electronic_Invoice\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\csharp\\.nuget\\packages\\",
-        "outputPath": "D:\\Alzahraa\\invoice\\Electronic_Invoice\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\BLL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\csharp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Alzahraa\\invoice\\Electronic_Invoice\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Alzahraa\\invoice\\Electronic_Invoice\\DAL\\DAL.csproj"
+              "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\DAL\\DAL.csproj"
               }
             }
           }
@@ -55,6 +52,12 @@
               "target": "Package",
               "version": "[3.1.22, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
               "version": "[6.15.1, )"
@@ -71,31 +74,25 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Alzahraa\\invoice\\Electronic_Invoice\\DAL\\DAL.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alzahraa\\invoice\\Electronic_Invoice\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Alzahraa\\invoice\\Electronic_Invoice\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\csharp\\.nuget\\packages\\",
-        "outputPath": "D:\\Alzahraa\\invoice\\Electronic_Invoice\\DAL\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\DAL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\csharp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -165,24 +162,90 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Alzahraa\\invoice\\Electronic_Invoice\\Invoice_Api\\Invoice_Api.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\Electronic_Invoice\\Invoice_Angular.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alzahraa\\invoice\\Electronic_Invoice\\Invoice_Api\\Invoice_Api.csproj",
-        "projectName": "Invoice_Api",
-        "projectPath": "D:\\Alzahraa\\invoice\\Electronic_Invoice\\Invoice_Api\\Invoice_Api.csproj",
-        "packagesPath": "C:\\Users\\csharp\\.nuget\\packages\\",
-        "outputPath": "D:\\Alzahraa\\invoice\\Electronic_Invoice\\Invoice_Api\\obj\\",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\Electronic_Invoice\\Invoice_Angular.csproj",
+        "projectName": "Invoice_Angular",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\Electronic_Invoice\\Invoice_Angular.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\Electronic_Invoice\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\csharp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\Invoice_Api\\Invoice_Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\Invoice_Api\\Invoice_Api.csproj",
+        "projectName": "Invoice_Api",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\Invoice_Api\\Invoice_Api.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\Invoice_Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -196,8 +259,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Alzahraa\\invoice\\Electronic_Invoice\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\Alzahraa\\invoice\\Electronic_Invoice\\BLL\\BLL.csproj"
+              "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\DAL\\DAL.csproj"
+              },
+              "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\Electronic_Invoice\\Invoice_Angular.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\alzahraashaker2020\\Electronic_invoice\\Electronic_Invoice\\Invoice_Angular.csproj"
               }
             }
           }
@@ -212,6 +281,12 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -239,7 +314,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

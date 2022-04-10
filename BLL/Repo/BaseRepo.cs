@@ -107,6 +107,7 @@ namespace BLL.Repo
 
         public void Update(T Entity)
         {
+            
             table.Update(Entity);
         }
        

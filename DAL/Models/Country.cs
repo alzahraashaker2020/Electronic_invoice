@@ -14,8 +14,8 @@ namespace DAL.Models
 
         public int Id { get; set; }
         public string Code { get; set; }
-        public string Edescription { get; set; }
-        public string Adescription { get; set; }
+        public string Desc_en { get; set; }
+        public string Desc_ar { get; set; }
 
         public virtual ICollection<Address> Addresses { get; set; }
     }

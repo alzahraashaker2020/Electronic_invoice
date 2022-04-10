@@ -210,17 +210,17 @@ namespace DAL.Models
             {
                 entity.Property(e => e.Id).HasColumnName("id");
 
-                entity.Property(e => e.Adescription)
+                entity.Property(e => e.Desc_ar)
                     .HasMaxLength(1000)
-                    .HasColumnName("ADescription");
+                    .HasColumnName("Desc_ar");
 
                 entity.Property(e => e.Code)
                     .HasMaxLength(200)
                     .HasColumnName("code");
 
-                entity.Property(e => e.Edescription)
+                entity.Property(e => e.Desc_en)
                     .HasMaxLength(1000)
-                    .HasColumnName("EDescription");
+                    .HasColumnName("Desc_en");
             });
 
             modelBuilder.Entity<Delivery>(entity =>
