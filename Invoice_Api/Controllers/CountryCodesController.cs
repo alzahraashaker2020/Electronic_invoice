@@ -3,6 +3,12 @@ using DAL.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
 
 namespace Invoice_Api.Controllers
 {
@@ -146,7 +152,44 @@ namespace Invoice_Api.Controllers
 
         }
 
+        [HttpGet]
+        [Route("FillDataBaseFromJsonFileByConsumeAPI")]
+        //async Task Not Async Void => Canot Access Dispose Object(Reson["can’t wait until it's Finished "])
+        public async Task FillDataByJsonFile()
+        {
 
+            //******Change this Url For Each JsonFIle*******
+            string URL = "https://sdk.preprod.invoicing.eta.gov.eg/files/CountryCodes.json";
+
+            using (var client = new System.Net.Http.HttpClient())
+            {
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                HttpResponseMessage Res = await client.GetAsync(URL);
+                if (Res.IsSuccessStatusCode)
+                {
+                    var response = Res.Content.ReadAsStringAsync().Result;
+
+                    //******Change Deserialized Object Type for your ObjectType*******
+                    var ListOFObjs = JsonConvert.DeserializeObject<List<Country>>(response);
+
+                    foreach (var objs in ListOFObjs)
+                    {
+                        try
+                        {
+                            _warpper._Country.Create(objs);
+                            _warpper.Save();
+                        }
+
+
+                        catch (Exception ex)
+                        {
+
+                        }
+                    }
+                }
+            }
+        }
 
     }
 }

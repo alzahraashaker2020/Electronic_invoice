@@ -2,6 +2,12 @@
 using DAL.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
 
 namespace Invoice_Api.Controllers
 {
@@ -11,14 +17,11 @@ namespace Invoice_Api.Controllers
     {
 
         private readonly IRepoWrapper _warpper;
-
+       
         public UnitTypeController(IRepoWrapper Warpper)
         {
             _warpper = Warpper;
         }
-
-
-
 
         [HttpGet]
         [Route("GetAllUniteTypes")]
@@ -149,7 +152,45 @@ namespace Invoice_Api.Controllers
 
 
 
+        //HelpMethod To Fill Data In DatBasebY Consuming API
 
 
+
+        [HttpGet]
+        [Route("FillDataBaseFromJsonFileByConsumeAPI")]
+        public async Task FillDataByJsonFile()
+        {
+           
+            //******Change this Url For Each JsonFIle*******
+            string URL = "https://sdk.preprod.invoicing.eta.gov.eg/files/UnitTypes.json";
+
+            using (var client = new System.Net.Http.HttpClient())
+            {
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));      
+                HttpResponseMessage Res = await client.GetAsync(URL);
+                if (Res.IsSuccessStatusCode)
+                {  
+                    var response = Res.Content.ReadAsStringAsync().Result;
+
+                    //******Change Deserialized Object Type for your ObjectType*******
+                    var ListOFObjs = JsonConvert.DeserializeObject<List<UniteType>>(response);
+
+                    foreach (var objs in ListOFObjs)
+                    {
+                        try
+                        {
+                            _warpper._UniteType.Create(objs);
+                            _warpper.Save();
+                        }
+
+
+                        catch (Exception ex) {
+                        
+                        }
+                    }
+                }
+            }
+        }
     }
 }
